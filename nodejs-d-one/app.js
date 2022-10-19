@@ -22,8 +22,14 @@
 
 const name = require('./4_name');
 const sayHi = require('./5_utils');
-sayHi('John');
-sayHi(name.john);
-sayHi(name.peter);
+const data = require('./6-alternative');
+require('./7-mide-grenade');
+console.log(data);
+// sayHi('John');
+// sayHi(name.john);
+// sayHi(name.peter);
 
-console.log(name);
+// console.log(name);
+
+
+
